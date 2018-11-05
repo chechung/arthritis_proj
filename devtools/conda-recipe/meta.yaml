@@ -1,0 +1,27 @@
+package:
+  name: arthritis_proj
+  version: "0.0.0"
+
+source:
+  path: ../..
+
+build:
+  number: 0
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  requires:
+    - pytest
+  imports:
+    - arthritis_proj
+
+about:
+  home: add_url_here
+  license: MIT License
